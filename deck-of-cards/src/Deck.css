@@ -1,0 +1,28 @@
+.Deck {
+  text-align: center;
+}
+
+.Deck-draw-card {
+  padding: 20px;
+  background-color: #000026;
+  color: #fefefe;
+  border-radius: 5px;
+  margin: 0 10px;
+  border: 1px solid #000026;
+}
+
+.Deck-draw-card:hover {
+  cursor: pointer;
+  border: 1px solid #fefefe;
+  background-color: #f4f4f4;
+  color: #000026;
+}
+
+.Deck-draw-card:active,
+.Deck-draw-card:focus {
+  outline: none;
+}
+
+.Deck-area {
+  margin-top: 75px;
+}
